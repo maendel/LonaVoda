@@ -23,14 +23,14 @@
 
 
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 900px) {
   .footer{
     height: 250px;
   }
 }
 
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 900px) {
   .footer-info{
     height: 100px;
   }
@@ -47,7 +47,7 @@
 }
 
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 900px) {
   .footer-contacts{
     float: left;
     padding: 0 10px;
@@ -55,7 +55,7 @@
 }
 
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 900px) {
   .footer-documents{
     float: right;
     padding: 0 10px;
