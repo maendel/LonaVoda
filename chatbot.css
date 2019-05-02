@@ -2,15 +2,14 @@
 
 
 .footer {
-  position: relative;
   font-family: 'Century_Gothic_normal', Arial, Helvetica, sans-serif;
   background: #000000;
   height: 350px;
   color: #8898AC;
   margin: 25px 0px 0px 0px;
-  bottom: 0;
   width: 100%;
   font-weight: 350;
+
 }
 
 .footer-info {
@@ -21,6 +20,15 @@
   margin: 0px auto;
   padding: 30px 0px 0px 0px;
 }
+
+
+
+@media all and (min-width: 700px) {
+  .footer{
+    height: 250px;
+  }
+}
+
 
 @media all and (min-width: 700px) {
   .footer-info{
@@ -69,10 +77,17 @@
 }
 
 
-
-
 .Copyright {
-  margin: 80px auto;
+  margin: 50px auto 20px auto;
+  font-size: 10px;
+}
+
+
+@media all and (max-width: 600px) {
+  .Copyright {
+    font-size: 9px;
+  }
+
 }
 
 
@@ -89,6 +104,7 @@
 .menu-bar div{
   float: left;
   padding: 0 20px;
+  text-align: center;
 }
 
 
@@ -130,9 +146,17 @@ a:hover{
     font-size: 13px;
   }
 
-#login h1{
+#mail, #phone, #password{
+  width: 240px;
+  height: 10px;
+}
+
+
+
+ #login h1{
   font-size: 15px;
   font-family: sans-serif;
+  font-weight: normal;
 }
 
 .Userinfo{
@@ -169,22 +193,20 @@ a:hover{
 }
 
 
-
 #UP {
   color: #043248;
   margin: auto;
   font-family: "Century_Gothic_normal", sans-serif;
 }
 
-#Return-button1{
-  position: absolute;
-  float: left;
-  left: 0px;
-  bottom: 0px;
+#Return-button{
+  position: relative;
+  width: 80px;
 }
 
-#Return-button2 {
-  position: absolute;
-  float: right;
-  right: 0px;
-  bottom: 0px;
+
+
+@media all and (min-width: 600px) {
+  #Return-button{
+    width: 500px;
+}
