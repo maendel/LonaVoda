@@ -16,12 +16,12 @@
   height: 200px;
   border-bottom: 2px solid #C7E0F4;
   font-size: 12px;
-  max-width: 700px;
+  max-width: 70%;
   margin: 0px auto;
   padding: 30px 0px 0px 0px;
 }
 
-@media all and (min-width: 620px) {
+@media all and (min-width: 700px) {
   .footer-info{
     height: 100px;
   }
@@ -37,7 +37,22 @@
 }
 
 
-@media all and (min-width: 620px) {
+@media all and (min-width: 700px) {
+  .footer-contacts{
+    float: left;
+    padding: 0 10px;
+  }
+}
+
+
+@media all and (min-width: 700px) {
+  .footer-documents{
+    float: right;
+    padding: 0 10px;
+  }
+}
+
+@media all and (min-width: 880px) {
   .footer-contacts{
     float: left;
     padding: 0 60px;
@@ -45,12 +60,14 @@
 }
 
 
-@media all and (min-width: 620px) {
+@media all and (min-width: 880px) {
   .footer-documents{
     float: right;
     padding: 0 60px;
   }
 }
+
+
 
 
 .Copyright {
