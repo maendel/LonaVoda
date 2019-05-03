@@ -103,6 +103,7 @@
   margin: 0 5px;
   padding: auto;
   font-size: 15px;
+  text-align: center;
 }
 
 
@@ -158,7 +159,7 @@
 
 a:hover{
     color: #EF8F10;
-    font-size: 13px;
+    font-size: 15px;
   }
 
 #mail, #phone, #password{
@@ -222,18 +223,16 @@ a:hover{
   width: 80px;
 }
 
-
-
 @media all and (min-width: 600px) {
   .btn-primary{
     width: 500px;
 }
 
 
-.input{
+.form-control{
   border: 1px solid #C7E0F4;
   border-radius: 8px;
   font-family: sans-serif;
   font-size: 12px;
-  text-align: center;
+  margin :0px auto;
 }

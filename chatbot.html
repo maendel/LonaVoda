@@ -57,27 +57,24 @@
     <div class="Userinfo">
       <h1 style="color: #312D3C">
         Log into your Account:</h1>
-        <form>
+        <div class="form-group">
           <label for="mail">Address :</label>
-          <input type="email" class="input" style="padding: 10px" required name="Email" placeholder="E-mail" id="mail" sizing="30px" maxlength="25">
-        </form>
-        <br />
-        <form>
+          <input type="email" class="form-control" style="padding: 10px" required name="Email" placeholder="E-mail" id="mail" sizing="30px" maxlength="25">
+        </div>
+        <div class="form-group">
           <label for="phone">Phone N<sup>o</sup> :</label>
-          <input type="text" class="input" style="padding: 10px" required name="phone" placeholder="Telephone" id="phone" size="30px" maxlength="10">
-        </form>
-        <br />
-        <form>
+        <input type="text" class="form-control" style="padding: 10px" required name="phone" placeholder="Tel" id="phone" size="30px" maxlength="10">
+        </div>
+        <div class="form-group">
           <label for="password">Password:</label>
-          <input type="password" class="input" style="padding: 10px" required name="Password" placeholder="Password" id="password" size="30px" maxlength="20">
-        </form>
-        <br />
-        <form>
+          <input type="password" class="form-control" style="padding: 10px" required name="Password" placeholder="Password" id="password" size="30px" maxlength="20">
+        </div>
+        <div>
           <label> Remenber my password
             <input type="checkbox" id="Remenber" name="Remenber">
           </label>
-          <br />
         </div>
+    </div>
         <div class="payment">
           <p> Choose your payment method:
             <select name="shipping" id="shipping" style="width: 80px">
